@@ -1,6 +1,6 @@
 # My Personal Resume App
 
-The purpose of this app is to further increase my understanding and capailities of the Ionic mobile developmnent framework as well as provide an interesting way to present my personal resume.
+The purpose of this app is to further increase my understanding of and capailities with the Ionic mobile developmnent framework as well as provide an interesting way to present my personal resume.
 
 ## How to run this program:
 1. Install the ionic framework by following the instructions here: https://ionicframework.com/docs/installation/cli
