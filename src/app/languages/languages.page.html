@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Languages
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-content>
+      Below is a list of programming languages that I have experience with. Tapping on an language will lead to a brief
+      description on my profeciency with the language and how comforitable I feel with it.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+    <!-- <ion-item *ngFor="let language of languages" (click)="pushPage(language)" routerDirection="forward">
+      {{language.language}}
+    </ion-item> -->
+
+    <ion-item>
+      {{language.language}}
+    </ion-item>
+  </ion-list>
+
+</ion-content>

@@ -15,10 +15,35 @@ export class AppComponent {
       url: '/home',
       icon: 'home'
     },
+    // {
+    //   title: 'List',
+    //   url: '/list',
+    //   icon: 'list'
+    // },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Education',
+      url: '/education',
+      icon: 'school'
+    },
+    {
+      title: 'Languages',
+      url: '/languages',
+      icon: 'code',
+    },
+    {
+      title: 'Experience',
+      url: '/experience',
+      icon: 'briefcase',
+    },
+    {
+      title: 'Projects',
+      url: '/projects',
+      icon: 'git-network',
+    },
+    {
+      title: 'Contact Me',
+      url: '/contact',
+      icon: 'send',
     }
   ];
 

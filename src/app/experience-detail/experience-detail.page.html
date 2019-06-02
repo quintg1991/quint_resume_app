@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="/"></ion-back-button>
+      <ion-title>{{job.position}}</ion-title>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- <ion-card padding>
+    <h3>{{job.location}}</h3>
+    <ion-card-content>
+      <h3>Duties</h3>
+      <ion-list>
+        <ion-item>
+            <ion-label>
+                {{job.duty1}}
+              </ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>
+                {{job.duty2}}
+              </ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>
+                {{job.duty3}}
+              </ion-label>
+          </ion-item>
+        <ion-item>
+            <ion-label>
+                {{job.duty4}}
+              </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card> -->
+
+  <h4>{{job.location}}</h4>
+  <ul>
+    <li>
+      {{job.duty1}}
+    </li>
+    <li *ngIf="job.duty2">
+      {{job.duty2}}
+    </li>
+    <li *ngIf="job.duty3">
+      {{job.duty3}}
+    </li>
+    <li *ngIf="job.duty4">
+      {{job.duty4}}
+    </li>
+  </ul>
+</ion-content>
